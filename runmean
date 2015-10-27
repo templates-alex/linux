@@ -1,0 +1,7 @@
+#
+PWD=`pwd`
+
+#docker run -d --name mean -p 6000:3000 -v /home/alex/mean:/home/mean \
+# -t pointlook/mean
+docker run -i --name mean -p 6000:3000 -v /home/alex/mean:/home/mean \
+ -t pointlook/mean /bin/bash
